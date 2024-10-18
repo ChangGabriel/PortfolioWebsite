@@ -83,6 +83,7 @@ a{
 }
 
 .skills_outer{
+    position: relative;
     padding-top: 3.25rem;
     gap: 3rem;
     background: #e5e7eb;
@@ -131,6 +132,7 @@ a{
 }
 
 .projects_outer{
+    position: relative;
     padding-top: 3.25rem;
     gap: 3rem;
     background: #e5e7eb;
@@ -204,4 +206,46 @@ a{
 .recommendation_description p{
     font-size: 1rem;
     font-weight: 400;
+}
+
+
+.submit_recommendations{
+    position: relative;
+    padding-top: 3.25rem;
+    gap: 3rem;
+    
+    
+}
+.submit_recommendations h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 1.2rem;
+
+}
+.form-container {
+    text-align: center;
+    margin-bottom: 2rem;    
+    
+}
+.submit_recommendations input, textarea {
+    width: 50%;
+    padding: 0.6rem;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 0.625rem;
+    
+}
+.submit_recommendations button {
+    background-color: white;
+    color: #1f2937;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.submit_recommendations button:hover {
+    background-color: #ccc;
 }
