@@ -208,13 +208,10 @@ a{
     font-weight: 400;
 }
 
-
 .submit_recommendations{
     position: relative;
     padding-top: 3.25rem;
     gap: 3rem;
-    
-    
 }
 .submit_recommendations h3{
     font-size: 1.5rem;
