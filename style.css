@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1f2937;
+}
+
+.navbar_menu a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar{
+    background: #FBEAD9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.25rem 6.25rem;
+}
+
+.navbar_title{
+    font-size: 1.5rem;
+}
+
+.navbar_menu{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.25rem;
+}
+
+.aboutme{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6.25rem;
+    gap: 3.75rem;
+    height: calc(100vh - 15rem);
+}
+
+.aboutme_intro,
+.aboutme_content{
+    width: 50%;
+}
+
+.aboutme_image{
+    width: 21rem;
+    height: 21rem;
+    border-radius: 0.625rem;
+}
+
+.aboutme_intro h2{
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.aboutme_content{
+    padding-right: 2.5rem;
+}
+
+.aboutme_content h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.aboutme_content p{
+    color: #6b7280;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.skills_outer{
+    padding-top: 3.25rem;
+    gap: 3rem;
+    background: #e5e7eb;
+}
+
+.skills_title{
+    padding-left: 6.25rem;
+}
+
+.skills_title h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.skills{
+    padding: 6.25rem;
+    padding-top: 2rem;
+    padding-bottom: 3.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 3.25rem;
+}
+.skills_description {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.625rem;
+    padding: 1rem;
+}
+.skills_description i{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.6rem;
+}
+.skills_description h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+}
+
+.skills_description p{
+    font-size: 1rem;
+    color: #6b7280;
+    font-weight: 400;
+}
+
+.projects_outer{
+    padding-top: 3.25rem;
+    gap: 3rem;
+    background: #e5e7eb;
+}
+
+.projects_title{
+    padding-left: 6.25rem;
+}
+
+.projects_title h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.projects{
+    padding: 6.25rem;
+    padding-top: 2rem;
+    padding-bottom: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.projects hr{
+    width: 75%;
+    margin: auto;
+}
+
+.projects h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.projects ul{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.recommendations_outer{
+    padding-top: 3.25rem;
+    gap: 3rem;
+}
+
+.recommendations_title{
+    padding-left: 6.25rem;
+}
+
+.recommendations_title h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.recommendations{
+    padding: 6.25rem;
+    padding-top: 2rem;
+    padding-bottom: 3.25rem;
+    display: flex;
+    gap: 3.25rem;
+}
+.recommendation_description{
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.625rem;
+    padding: 1.5rem;
+}
+
+.recommendation_description p{
+    font-size: 1rem;
+    font-weight: 400;
+}
