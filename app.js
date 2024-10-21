@@ -25,3 +25,21 @@ function addRecommendation() {
     document.getElementById('name').value = "";
     document.getElementById('recommendation').value = "";
 }
+
+// Function to scroll to top 
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+ // Function to show or hide the scroll to top button based on scroll position
+ window.onscroll = function () {
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100; //calculate scroll percentage
+    
+    // Show the button if scrolled down more than x% of the page
+    if (scrollPercentage > 50) {
+        scrollToTopBtn.style.display = 'block'; // Show button when more than x% of the page is scrolled
+    } else {
+        scrollToTopBtn.style.display = 'none'; // Hide button when less than x%
+    }
+};

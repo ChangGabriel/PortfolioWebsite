@@ -9,7 +9,7 @@
 
 a{
     text-decoration: none;
-    color: #1f2937;
+    color: white;
 }
 
 .navbar_menu a:hover{
@@ -18,7 +18,7 @@ a{
 }
 
 .navbar{
-    background: #FBEAD9;
+    background: #44466f;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,7 +26,7 @@ a{
 }
 
 .navbar_title{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .navbar_menu{
@@ -266,4 +266,52 @@ a{
 }
 .submit_recommendations button:hover {
     background-color: #ccc;
+}
+
+.scroll-to-top{
+    position: fixed;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+
+}
+.scroll-to-top i{
+    font-size: 2.8rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.scroll-to-top i:hover {
+    color: #303f9f;
+}
+
+footer{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .socials{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 20px;
+}
+
+footer .socials i{
+    font-size: 40px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .socials i:hover{
+    color: #303f9f;
+}
+
+footer p{
+    font-size: 12px;
 }
