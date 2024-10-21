@@ -19,6 +19,8 @@ function addRecommendation() {
     //append the recommendation item to list
     recommendationList.appendChild(listItem);
 
+    alert("Thank you for submitting a recommendation!");
+
     //Clear input fields after submission
     document.getElementById('name').value = "";
     document.getElementById('recommendation').value = "";
